@@ -16,6 +16,17 @@ The Paris 2024 Summer Olympics, which will be hosting the world's top athletes f
 - Google Colab
 
 ## Thought process: 
+1. Attempting to find a correlation between sports that are common to both Paris 2024 and Tokyo 2020 Olympics to predict which sport is likelier to cause a victory in 2024.
+
+2. The events dataset is merged with the athletes dataset based on the 'sport' and 'Discipline' columns to form an educated dataset.
+
+3. The resulting dataset is then merged with the medal count data to form an appropriate training dataset.
+
+4. The final merged dataset combines events from Paris 2024 with athlete counts from Tokyo 2020.
+   
+5. The results are:
+Logistic Regression and Support Vector Classifier (SVC) achieved an accuracy of about 36%.
+Random Forest's results were heavily overfit.
 
 
 
